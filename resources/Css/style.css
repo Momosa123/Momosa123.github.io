@@ -14,7 +14,7 @@ header{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid seashell;
-    position: sticky;
+    position: fixed;
     top:0px;
     background-color: black;
     z-index: 10;
@@ -54,27 +54,36 @@ li a{
 
 }
 
+.mission-main-title, .mission-subtitle{
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+
 .title-mission{
     background-color: black;
     width: 100%;
    text-align: center;
    padding: 0px 0px;
 }
+
+
+
+/* Tea section styling */
 .tea-month{
-    width: 1000px;
-    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 .title-tea{
     width: 100%;
    text-align: center;
    margin-bottom: 20px;
 }
 
-.mission-title, .mission-subtitle{
-    padding: 10px 0px;
-    margin: 0px;
-}
-/* Tea section styling */
 .tea-img{
     width: 1000px;
     margin: 0px auto;
