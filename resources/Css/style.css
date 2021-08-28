@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    opacity: 0.9;
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    margin: 0;
+}
+/* Navigation menu styling */
+header{
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top:0px;
+    background-color: black;
+    z-index: 10;
+}
+
+
+.img-logo{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+
+.menu{
+    display: flex;
+    margin-right: 10px;
+}
+li{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+li a{
+    color: seashell;
+}
+
+/* Banniere mission styling */
+.banniere{
+    background-image: url("../Images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title-mission{
+    background-color: black;
+    width: 100%;
+   text-align: center;
+   padding: 0px 0px;
+}
+.tea-month{
+    width: 1000px;
+    margin: 50px auto;
+}
+.title-tea{
+    width: 100%;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.mission-title, .mission-subtitle{
+    padding: 10px 0px;
+    margin: 0px;
+}
+/* Tea section styling */
+.tea-img{
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tea{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.img-tea{
+    height: 200px;
+    width:300px;
+    
+}
+/* Location styling */
+.container{
+    width: 1200px;
+    height: 500px;
+    margin: 0px auto;
+    background-image: url("../Images/img-locations-background.webp");
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-items{
+    display: flex;
+    justify-content: center;
+}
+.location-title{
+    margin-bottom: 15px;
+}
+.location{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    /* margin-top: 15px; */
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+} 
+
+/* Contact styling */
+
+.contact{
+    text-align: center;
+}
